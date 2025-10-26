@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airdrop FISHER™ на TON</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎣 Airdrop FISHER™ на TON</h1>
+        <p>Получи 1000 FISHER™ токенов каждые 666 часов!</p>
+        
+        <div id="wallet-status">Не подключён</div>
+        <button id="connect-wallet">Подключить TON-кошелёк</button>
+        
+        <div id="claim-section" style="display: none;">
+            <p>Твой адрес: <span id="user-address"></span></p>
+            <div id="timer" style="display: none;">До следующего airdrop: <span id="countdown"></span></div>
+            <button id="claim-button">Забрать 1000 FISHER™</button>
+            <div id="claim-status"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
