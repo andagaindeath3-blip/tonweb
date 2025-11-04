@@ -1,5 +1,5 @@
 const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-    manifestUrl: 'https://your-site.com/tonconnect-manifest.json'  // Замени на твой домен
+    manifestUrl: 'https://fisher.usite.pro/tonconnect-manifest.json'  // Замени на твой домен
 });
 
 document.getElementById('connect-wallet').addEventListener('click', async () => {
